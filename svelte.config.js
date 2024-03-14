@@ -16,11 +16,11 @@ const mdsvexOptions = {
 	highlight: {
 		highlighter: async (code, lang = 'text') => {
 			const highlighter = await getHighlighter({
-				themes: ['poimandres'],
-				langs: ['javascript', 'typescript']
+				themes: ['one-dark-pro'],
+				langs: ['javascript', 'typescript','java','python','c','cpp','csharp','css','html','json','markdown','php','sql','yaml']
 			})
-			await highlighter.loadLanguage('javascript', 'typescript')
-			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'poimandres' }))
+			await highlighter.loadLanguage('javascript', 'typescript','java','python','c','cpp','csharp','css','html','json','markdown','php','sql','yaml')
+			const html = escapeSvelte(highlighter.codeToHtml(code, { lang, theme: 'one-dark-pro' }))
 			return `{@html \`${html}\` }`
 		}
 	},
