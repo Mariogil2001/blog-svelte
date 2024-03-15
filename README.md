@@ -15,7 +15,7 @@ Learn how to build a blazingly fast and extendable SvelteKit Markdown blog for p
 ### 🧑‍🤝‍🧑 Clone the project
 
 ```sh
-https://github.com/joysofcode/sveltekit-markdown-blog.git
+https://github.com/Mariogil2001/blog-svelte.git
 ```
 
 ### 📦️ Install dependencies
