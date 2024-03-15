@@ -33,8 +33,13 @@
 	}
 
 	a {
-		color: inherit;
+		color: var(--brand);
 		text-decoration: none;
+		font-weight: var(--font-weight-9);
+		font-size: var(--font-size-4);
+	}
+	a:hover {
+		text-decoration: underline;
 	}
 
 	@media (min-width: 768px) {

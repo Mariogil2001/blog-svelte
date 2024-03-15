@@ -1,14 +1,13 @@
 ---
-title: First post
-description: First post.
+title: Bubble Shooter 🔫
+description: Hacer un bubble shooter sencillo donde se lanzaran bolas con velocidad constante.
 date: '2023-4-14'
 categories:
-  - sveltekit
-  - svelte
+  - simulacion
+  - ejercicios
 published: true
 ---
 
-# Ejercicio Bubble Shooter 🔫
 ## Enunciado
 Hacer un **bubble-shooter** sencillo (lanzador de bolas con velocidad constante).
 

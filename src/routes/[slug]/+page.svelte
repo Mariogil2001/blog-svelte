@@ -13,7 +13,7 @@
 <article>
 	<hgroup>
 		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
+		<p>Publicado el {formatDate(data.meta.date)}</p>
 	</hgroup>
 
 	<div class="tags">
@@ -29,9 +29,21 @@
 
 <style>
 	article {
-		max-inline-size: var(--size-content-3);
 		margin-inline: auto;
 	}
+	hgroup{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+
+	}
+	hgroup h1 {
+    text-align: center;
+    margin-inline: auto;
+    white-space: nowrap;
+	font-weight: var(--font-weight-9);
+}
 
 	h1 {
 		text-transform: capitalize;
@@ -51,5 +63,11 @@
 	.tags > * {
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
+	}
+	@media (max-width: 768px) {
+		article h1{
+			font-size: var(--size-8);
+		}
+		
 	}
 </style>
