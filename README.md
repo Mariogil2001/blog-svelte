@@ -4,7 +4,7 @@ Learn how to build a blazingly fast and extendable SvelteKit Markdown blog for p
 
 ## Post
 
-✍️ https://joyofcode.xyz/sveltekit-markdown-blog
+✍️ https://mariogil2001.vercel.app/
 
 ## Remote Development
 
